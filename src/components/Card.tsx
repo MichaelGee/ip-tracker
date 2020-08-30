@@ -10,7 +10,7 @@ const Card = () => {
            </div>
            <div className="address">
              <p>ADDRESS</p>
-             <p className="data">Booklyn, New York</p>
+             <p className="data">Brooklyn, New York</p>
            </div>
            <div className="timezone">
              <p>TIMEZONE</p>

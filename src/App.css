@@ -56,12 +56,16 @@ h1, h2, h3, h4{
 .card{
   position: absolute;
   top: 200px;
-  width: 80%;
+  width: 60%;
   background: white;
   border-radius: 7px;
   padding: 20px;
   box-shadow: 0 25px 60px 2px rgba(0, 0, 0, 0.25);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .data{
@@ -71,8 +75,22 @@ h1, h2, h3, h4{
 
 
 
-@media screen (min-height: 800px){
-
+@media  (min-width: 940px){
+  .banner{
+    height: 30vh;
+  }
+   .card{
+     top:240px;
+     flex-direction: row;
+     justify-content: space-evenly;
+     width: 90%;
+     text-align: left;
+   }
+   .ip, .address, .timezone{
+     border-right: 2px solid rgb(235, 221, 221);
+     padding: 0rem 4rem 0 0rem;
+     text-align: left;
+   }
 }
 
 
